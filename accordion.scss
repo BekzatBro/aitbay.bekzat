@@ -1,0 +1,104 @@
+@import "reset";
+@import "varables";
+@import "mixin";
+
+#accordion{
+  padding-top: 60px;
+  width: 1344px;
+  height: 850px;
+  background: #F4F6F9;
+  .accordion{
+    @include between();
+
+    &--title{
+      h1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C3A4B;
+        padding-bottom: 10px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #2C3A4B;
+        transform: rotate(0.02deg);
+      }
+    }
+
+    &--block{
+      display: flex;
+      align-items: center;
+      h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2E5AAC;
+        margin-bottom: 10px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #545D69;
+      }
+      &__ttl{
+        padding: 0 20px;
+        h2{
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          color: #2E5AAC;
+          margin-bottom: 10px;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #545D69;
+        }
+      }
+    }
+  }
+  .accordion-two{
+    margin: 20px 0;
+    details{
+      width: 1168px;
+      height: 95px;
+      background: #FFFFFF;
+      box-shadow: 0 1px 0 #DADEE3;
+      border-radius: 10px;
+      p{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 1168px;
+        height: 95px;
+        background: #FFFFFF;
+        box-shadow: 0 1px 0 #DADEE3;
+        border-radius: 10px;
+      }
+    }
+    summary{
+      margin-left: 20px;
+      h1{
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #09101D;
+      }
+    }
+    &--block{
+      display: flex;
+      align-items: center;
+      h4{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #858C94;
+      }
+    }
+  }
+}

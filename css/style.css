@@ -209,6 +209,24 @@ a {
   color: #545D69;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 #material {
   padding-top: 150px;
 }
@@ -255,6 +273,122 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #545D69;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#accordion {
+  padding-top: 60px;
+  width: 1344px;
+  height: 850px;
+  background: #F4F6F9;
+}
+#accordion .accordion {
+  display: flex;
+  justify-content: space-between;
+}
+#accordion .accordion--title h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2C3A4B;
+  padding-bottom: 10px;
+}
+#accordion .accordion--title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2C3A4B;
+  transform: rotate(0.02deg);
+}
+#accordion .accordion--block {
+  display: flex;
+  align-items: center;
+}
+#accordion .accordion--block h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2E5AAC;
+  margin-bottom: 10px;
+}
+#accordion .accordion--block p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #545D69;
+}
+#accordion .accordion--block__ttl {
+  padding: 0 20px;
+}
+#accordion .accordion--block__ttl h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2E5AAC;
+  margin-bottom: 10px;
+}
+#accordion .accordion--block__ttl p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #545D69;
+}
+#accordion .accordion-two {
+  margin: 20px 0;
+}
+#accordion .accordion-two details {
+  width: 1168px;
+  height: 95px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 #DADEE3;
+  border-radius: 10px;
+}
+#accordion .accordion-two details p {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 1168px;
+  height: 95px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 #DADEE3;
+  border-radius: 10px;
+}
+#accordion .accordion-two summary {
+  margin-left: 20px;
+}
+#accordion .accordion-two summary h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #09101D;
+}
+#accordion .accordion-two--block {
+  display: flex;
+  align-items: center;
+}
+#accordion .accordion-two--block h4 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #858C94;
 }
 
 /*# sourceMappingURL=style.css.map */
