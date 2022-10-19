@@ -1,0 +1,41 @@
+@import "reset";
+@import "varables";
+@import "mixin";
+
+#features {
+  padding-top: 100px;
+
+  .features {
+
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #2C3A4B;
+      margin-bottom: 40px;
+    }
+
+    &--block {
+      @include between();
+      &__blocks {
+        &--list {
+          h2 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #2C3A4B;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #545D69;
+          }
+        }
+      }
+    }
+  }
+}
