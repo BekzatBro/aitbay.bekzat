@@ -116,4 +116,32 @@ a {
   color: #FFFFFF;
 }
 
+#about {
+  padding-top: 50px;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2C3A4B;
+  padding-bottom: 30px;
+}
+#about .about {
+  display: flex;
+  justify-content: space-between;
+}
+#about .about--block h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2C3A4B;
+  padding-bottom: 10px;
+}
+#about .about--block p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #545D69;
+}
+
 /*# sourceMappingURL=style.css.map */
