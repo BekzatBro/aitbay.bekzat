@@ -1,8 +1,10 @@
-
+@import "reset";
+@import "varables";
+@import "mixin";
 
 
 #about{
-  padding-top: 50px;
+  padding-top: 100px;
   h1{
     font-weight: 700;
     font-size: 32px;
