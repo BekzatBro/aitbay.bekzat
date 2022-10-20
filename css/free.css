@@ -16,9 +16,19 @@ a {
   text-decoration: none;
 }
 
+#free {
+  width: 1344px;
+  height: 670px;
+  left: 96px;
+  top: 5206px;
+  background: #394452;
+}
 #free .free {
+  margin-top: 120px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 #free .free--block h1 {
   font-weight: 700;
@@ -26,6 +36,15 @@ a {
   line-height: 40px;
   text-align: center;
   color: #FFFFFF;
+}
+#free .free--block__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#free .free--block__list--item {
+  margin-top: 20px;
+  padding: 0 15px;
 }
 #free .free--block__list--item h3 {
   font-weight: 400;
@@ -40,6 +59,68 @@ a {
   font-size: 28px;
   line-height: 32px;
   text-align: center;
+  color: #FFFFFF;
+}
+#free .free--block__list--input {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#free .free--block__list--input input {
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  background: transparent;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  width: 568px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+  transition: 0.4s;
+}
+#free .free--block__list--input input:hover {
+  background: transparent;
+  transform: scale(1.1);
+}
+#free .free--block__list--input button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  outline: none;
+  border: 1px solid #B43E5F;
+  width: 568px;
+  height: 48px;
+  background: #B43E5F;
+  border-radius: 16px;
+  transition: 0.4s;
+}
+#free .free--block__list--input button:hover {
+  background: transparent;
+  transform: scale(1.1);
+}
+#free .free--block__list--checkbox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#free .free--block__list--checkbox input {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+}
+#free .free--block__list--checkbox p {
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
   color: #FFFFFF;
 }
 
