@@ -533,4 +533,32 @@ a {
   color: #545D69;
 }
 
+#acc {
+  padding-top: 20px;
+}
+#acc h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+  color: #2C3A4B;
+}
+#acc .acc--block {
+  margin-left: 40px;
+  margin: 20px 0;
+}
+#acc .acc--block details {
+  width: 1168px;
+  height: 66px;
+  background: #F4F6F9;
+  box-shadow: 0 1px 0 #DADEE3;
+  border-radius: 10px;
+}
+#acc .acc--block details p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #09101D;
+}
+
 /*# sourceMappingURL=style.css.map */
