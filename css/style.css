@@ -907,4 +907,27 @@ a {
   padding-bottom: 10px;
 }
 
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--block__list h1 {
+    font-size: 30px;
+  }
+  #hero .hero--block__list p {
+    font-size: 13px;
+  }
+  #hero .hero--block__span h2 {
+    font-size: 15px;
+  }
+  #hero .hero--block__span span {
+    font-size: 15px;
+  }
+  .hero img {
+    width: 350px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
