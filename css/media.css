@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--block__list h1 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
