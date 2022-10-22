@@ -943,4 +943,28 @@ a {
   flex-wrap: wrap;
 }
 
+#accordion .accordion-two details {
+  width: 864px;
+}
+
+#accordion .accordion {
+  width: 870px;
+}
+
+#foto .foto {
+  flex-wrap: wrap;
+}
+
+#course .course--block {
+  width: 610px;
+}
+
+#course {
+  padding-bottom: 400px;
+}
+
+#acc .acc--block details {
+  width: 867px;
+}
+
 /*# sourceMappingURL=style.css.map */
