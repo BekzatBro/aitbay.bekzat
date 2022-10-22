@@ -1,4 +1,5 @@
 @media (max-width: 1440px) {
+  .container {
   .container{
     width: 90%;
   }
@@ -21,7 +22,11 @@
     font-size: 15px;
   }
 
+
+ 
+
   .hero img{
+
     width: 350px;
   }
 
@@ -30,13 +35,24 @@
 
 @media (max-width: 1024px) {
 
+  #hero {
+    padding-top: 124px;
+  }
+
+
+
 }
 
 @media (max-width: 992px) {
 
 }
 
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 768px) {  }
+
 
 @media (max-width: 576px) {
 
