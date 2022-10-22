@@ -1,0 +1,80 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#course {
+  margin-top: 60px;
+  padding-top: 60px;
+  width: 1344px;
+  height: 650px;
+  background: #F4F6F9;
+}
+#course h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2C3A4B;
+  margin-bottom: 20px;
+}
+#course p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2C3A4B;
+  transform: rotate(0.02deg);
+}
+#course .course {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#course .course--block {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 568px;
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 #DADEE3;
+  border-radius: 16px;
+  transition: 0.4s;
+}
+#course .course--block:hover {
+  transform: scale(1.1);
+}
+#course .course--block img {
+  margin-left: 20px;
+}
+#course .course--block__list {
+  margin-left: 30px;
+}
+#course .course--block__list h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2C3A4B;
+  margin-bottom: 10px;
+}
+#course .course--block__list h2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #545D69;
+}
+
+/*# sourceMappingURL=course.css.map */
