@@ -1,9 +1,20 @@
 @media (max-width: 1440px) {
   .container {
+    .container {
+      width: 90%;
+    }
+
     width: 90%;
   }
-}
 
+  @media (max-width: 1200px) {
+    #hero .hero--block__list h1 {
+      font-size: 30px;
+    }
+
+    #hero .hero--block__list p {
+      font-size: 13px;
+    }
 @media (max-width: 1200px) {
   .container {
     width: 90%;
@@ -38,13 +49,53 @@
     height: 40px;
   }
 
-  #hero .hero--block__span h2 {
-    font-size: 15px;
+    #hero .hero--block__span h2 {
+      font-size: 15px;
+    }
+
+    #hero .hero--block__span span {
+      font-size: 15px;
+    }
+
+
+    .hero img {
+
+      width: 350px;
+    }
+
+
   }
 
-  #hero .hero--block__span span {
-    font-size: 15px;
+  @media (max-width: 1024px) {
+
+    #hero {
+      padding-top: 124px;
+    }
+
+
   }
+}
+  @media (max-width: 992px) {
+    #about h1 {
+      font-size: 28px;}
+  }
+#about .about {
+  flex-wrap: wrap;}
+#accordion .accordion-two details {
+  width: 864px;}
+#accordion .accordion {
+  width: 870px;
+}
+#foto .foto {
+  flex-wrap: wrap;
+}
+#course .course--block {
+  width: 610px;}
+#course {
+  padding-bottom: 400px;
+}
+#acc .acc--block details {
+  width: 867px;}
 
   #about .about--block h2 {
     font-size: 22px;
