@@ -5,12 +5,37 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  #hero {
+    padding-top: 130px;
+
+  }
+
+  .hero img {
+    width: 350px;
+  }
+
   #hero .hero--block__list h1 {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   #hero .hero--block__list p {
-    font-size: 13px;
+    font-size: 16px;
+  }
+
+  #hero .hero--block__list--btn {
+    font-size: 15px;
+    width: 180px;
+    height: 40px;
+  }
+
+  #hero .hero--block__list--button {
+    font-size: 15px;
+    width: 180px;
+    height: 40px;
   }
 
   #hero .hero--block__span h2 {
@@ -21,45 +46,132 @@
     font-size: 15px;
   }
 
-  .hero img {
-    width: 350px;
+  #about .about--block h2 {
+    font-size: 22px;
   }
 
-
-}
-
-@media (max-width: 1024px) {
-  #hero {
-    padding-top: 124px;
+  #about .about--block p {
+    font-size: 15px;
   }
 
+  #accordion {
+    width: 1200px;
+  }
 
+  #accordion .accordion {
+    width: 1025px;
+  }
+
+  #accordion .accordion-two details {
+    width: 1025px;
+  }
+
+  #foto h1 {
+    font-size: 33px;
+  }
+
+  #foto h2 {
+    font-size: 15px;
+  }
+
+  #foto .foto--block img {
+    width: 250px;
+  }
+
+  #foto .foto--block p {
+    font-size: 15px;
+  }
+
+  #course {
+    width: 1200px;
+  }
+
+  #course h1 {
+    font-size: 33px;
+  }
+
+  #course p {
+    font-size: 15px;
+  }
+
+  #course .course--block {
+    width: 500px;
+    height: 135px;
+  }
+
+  #acc h2 {
+    font-size: 33px;
+  }
+
+  #acc .acc--block details {
+    width: 1025px;
+  }
+
+  #free {
+    width: 1200px;
+  }
+
+  #free .free--block h1 {
+    font-size: 33px;
+  }
+
+  #free .free--block__list--item p {
+    font-size: 20px;
+  }
+
+  #footer .footer-btn button {
+    border: 1px solid rgba(77, 85, 166, 0.96);
+  }
 
 }
 
-@media (max-width: 992px) {
 
-}
+  @media (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
 
-@media (max-width: 768px) {
-}
 
-@media (max-width: 576px) {
+  }
 
-}
+  @media (max-width: 992px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-@media (max-width: 450px) {
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-}
+  @media (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-@media (max-width: 400px) {
+  @media (max-width: 451px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-}
+  @media (max-width: 400px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-@media (max-width: 380px) {
+  @media (max-width: 380px) {
+    .container {
+      width: 90%;
+    }
+  }
 
-}
-
-@media (max-width: 375px) {
-
-}
+  @media (max-width: 320px) {
+    .container {
+      width: 90%;
+    }
+  }
