@@ -1,5 +1,5 @@
 @media (max-width: 1440px) {
-  .container{
+  .container {
     width: 90%;
   }
 }
@@ -21,7 +21,7 @@
     font-size: 15px;
   }
 
-  .hero img{
+  .hero img {
     width: 350px;
   }
 
@@ -29,14 +29,82 @@
 }
 
 @media (max-width: 1024px) {
+  #hero {
+    padding-top: 125px;
+  }
 
+  .about--block h2 {
+    font-size: 20px;
+  }
+
+  .features--block__blocks--list h2 {
+    font-size: 20px;
+  }
+
+  #features .features--block__blocks--list p {
+    font-size: 13px;
+  }
+
+  #material .material--block__title h3 {
+    font-size: 20px;
+  }
+
+  #material .material--block__title p {
+    font-size: 15px;
+  }
+
+  #about .about--block p {
+    font-size: 12px;
+  }
+
+  #accordion {
+    width: 1040px;
+  }
+
+  #accordion .accordion-two details {
+    width: 900px;
+  }
+
+  #foto .foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #course {
+    width: 1025px;
+    height: 1000px;
+  }
+
+  #course .course {
+    width: 600px;
+  }
+
+  #acc .acc--block details {
+    width: 900px;
+    height: 66px;
+  }
+
+  #acc h2 {
+    padding-top: 25px;
+  }
+
+  .acc{
+    padding-top: 50px;
+  }
+
+  #free {
+    width: 1025px;
+    height: 670px;
+  }
 }
 
 @media (max-width: 992px) {
 
 }
 
-@media (max-width: 768px) {  }
+@media (max-width: 768px) {
+}
 
 @media (max-width: 576px) {
 
